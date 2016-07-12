@@ -17,3 +17,10 @@ p {
   text-align: center;
   text-decoration: underline;
 }
+#div-full-name {
+  border-style: outset;
+  border-color: #134679;
+  background-color: #333555;
+  color: #987654;
+  text-align: center;  
+}

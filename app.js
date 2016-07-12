@@ -24,7 +24,7 @@ var car = {
 document.getElementById("car-type").innerHTML = car.type;
 
 /********************************************************
-*                  Objects Definition                   * ********************************************************/
+*                  Object Definition                    * ********************************************************/
 var person = {
   firstName:  "John",
   lastName:   "Doe",
@@ -34,3 +34,16 @@ var person = {
 
 document.getElementById("person").innerHTML =
 person.firstName + " is " + person.age + " years old.";
+
+/********************************************************
+*                Acessing Object Methods                * ********************************************************/
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+document.getElementById("full-name").innerHTML = person.fullName();
