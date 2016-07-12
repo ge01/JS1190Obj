@@ -14,7 +14,8 @@ var car = "Fiat";
 document.getElementById("demo").innerHTML = car;
 
 /********************************************************
-*               Objects are variables too.              * ********************************************************/
+*               Objects are variables too.              *
+********************************************************/
 var car = {
   type:   "Fiat",
   model:  "500",
@@ -24,7 +25,8 @@ var car = {
 document.getElementById("car-type").innerHTML = car.type;
 
 /********************************************************
-*                  Object Definition                    * ********************************************************/
+*                  Object Definition                    *
+********************************************************/
 var person = {
   firstName:  "John",
   lastName:   "Doe",
@@ -36,7 +38,8 @@ document.getElementById("person").innerHTML =
 person.firstName + " is " + person.age + " years old.";
 
 /********************************************************
-*                Acessing Object Methods                * ********************************************************/
+*                Acessing Object Methods                *
+********************************************************/
 var person = {
     firstName: "John",
     lastName : "Doe",
