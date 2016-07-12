@@ -12,3 +12,25 @@
 *********************************************************/
 var car = "Fiat";
 document.getElementById("demo").innerHTML = car;
+
+/********************************************************
+*               Objects are variables too.              * ********************************************************/
+var car = {
+  type:   "Fiat",
+  model:  "500",
+  color:  "white"
+};
+
+document.getElementById("car-type").innerHTML = car.type;
+
+/********************************************************
+*                  Objects Definition                   * ********************************************************/
+var person = {
+  firstName:  "John",
+  lastName:   "Doe",
+  age:        50,
+  eyeColor:   "blue"
+};
+
+document.getElementById("person").innerHTML =
+person.firstName + " is " + person.age + " years old.";

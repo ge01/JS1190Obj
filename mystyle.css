@@ -2,3 +2,18 @@ p {
   border-style: solid;
   border-color: #bcdef1;
 }
+#div-car-type {
+  border-style: inset;
+  border-color: #cdef98;
+  background-color: #cd1524;
+  color: #dcf123;
+  text-align: center;
+}
+#div-person {
+  border-style: outset;
+  border-color: #def985;
+  background-color: #edac55;
+  color: #123456;
+  text-align: center;
+  text-decoration: underline;
+}
